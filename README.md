@@ -29,6 +29,3 @@ The script produces mock IoT data with the following structure:
 
 The message is produced with the event's `id` as the key and the entire event data as the value.
 
----
-
-Make sure you adjust the placeholders like `<script_name>` with the appropriate names before publishing.# Aiven-kafka-message-producer-Py
