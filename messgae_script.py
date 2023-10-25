@@ -4,8 +4,8 @@ import uuid
 from datetime import datetime
 import random
 
-hostname = "kafka-diab-diab88-sa-assignment.a.aivencloud.com"
-port = "23411"
+hostname = "Place the Hostnmae here "
+port = "Place the port here "
 
 # Function to serialize the data into a JSON string
 def json_serializer(msg, s_obj):
@@ -15,9 +15,9 @@ conf = {
     'bootstrap.servers': hostname + ":" + port,
     'client.id': 'myclient',
     'security.protocol': 'SSL',
-    'ssl.ca.location': '/Users/diab/Desktop/Aiven/py/ca.pem',
-    'ssl.certificate.location': '/Users/diab/Desktop/Aiven/py/service.cert',
-    'ssl.key.location': '/Users/diab/Desktop/Aiven/py/service.key',
+    'ssl.ca.location': '/ca.pem',
+    'ssl.certificate.location': '/service.cert',
+    'ssl.key.location': '/service.key',
     'value.serializer': json_serializer,
     'key.serializer': json_serializer
 }
