@@ -4,7 +4,7 @@ This Python script simulates the production of IoT sensor data events and sends 
 
 ## Prerequisites
 
-- Python 3.x
+- Python 3.11.X
 - `confluent_kafka` Python library:
   ```
   pip install confluent-kafka
