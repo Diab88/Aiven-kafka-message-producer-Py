@@ -12,7 +12,7 @@ This Python script simulates the production of IoT sensor data events and sends 
 
 ## How to Use
 
-1. Ensure you have the necessary SSL certificates at the specified locations on your machine:
+1. Ensure you have the necessary SSL certificates at the specified locations on your machine
 
 2. If you have your SSL certificates at different locations, update the paths in the script.
 
